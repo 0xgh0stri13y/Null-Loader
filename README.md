@@ -1,28 +1,30 @@
 # Null Loader 🌑
 
-A premium Web-based Firmware Flasher for ESP32 security toolkits.
+> **The ultimate web-based firmware deployment suite for ESP32 security toolkits.**
 
-## Overview
-Null Loader is a standalone web application designed to flash offensive and defensive security tools directly from your browser. It utilizes the Web Serial API (via `esp-web-tools`) to provide a zero-setup installation experience.
+Null Loader is a high-performance, browser-based flasher designed for security researchers and hardware enthusiasts. It provides a seamless, zero-setup experience for deploying powerful security firmwares to various ESP32 boards directly via the Web Serial API.
 
-## Supported Hardware
+## 🚀 Overview
+Null Loader eliminates the need for complex command-line tools, local Python environments, or driver struggles. By leveraging `esp-web-tools`, it brings the power of `esptool.py` directly to a premium, dark-themed web interface.
+
+## 🛠️ Supported Tools
+- **Marauder**: The gold standard for WiFi/Bluetooth security analysis.
+- **Bruce**: A predatory multi-tool for offensive hardware operations.
+- **nRFBox**: Advanced 2.4GHz and BLE scanning/jamming.
+- **ESP32-DIV**: A versatile wireless offensive/defensive kit.
+- **RF-Clown**: Specialized Bluetooth jammer setup.
+- **Biscuit**: E-paper display firmware for the ESP32-C5.
+
+## 📟 Supported Hardware
 - ESP32 (WROOM, Marauder v4/v6/v8)
-- ESP32-S3 (Flasher, Cardputer)
-- ESP32-C3 / C5
+- ESP32-S3 (Flasher, Cardputer, DevKitC-1)
+- ESP32-C3 & ESP32-C5
 
-## Tools Included
-- **Marauder**: Offensive & defensive Wi-Fi toolkit.
-- **Bruce**: Predatory ESP32 multi-tool.
-- **nRFBox**: BLE, WiFi, and 2.4GHz scanner/jammer.
-- **ESP32-DIV**: Wireless offensive/defensive kit.
-- **RF-Clown**: Bluetooth jammer.
-- **Biscuit**: E-paper reader for ESP32-C5.
-
-## Usage
-1. Open `index.html` in a Web Serial compatible browser (Chrome, Edge, Opera).
-2. Connect your ESP32 device via USB.
-3. Select your hardware variant from the dropdown.
-4. Click **Flash Firmware**.
+## 📖 Usage
+1. Open **Null Loader** in a Web Serial compatible browser (Chrome, Edge, or Opera).
+2. Connect your device via a high-quality USB data cable.
+3. Select your hardware variant from the dropdown menu.
+4. Click **Flash Firmware** and monitor the logs in the overlay.
 
 ---
-*For authorized security testing and educational purposes only.*
+*Disclaimer: Null Loader is intended for authorized security testing and educational purposes only. Use responsibly.*
