@@ -1,0 +1,12 @@
+{
+  "name": "Bruce (Marauder v4/v6)",
+  "version": "1.14",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        { "path": "Bruce-Marauder-V4-V6.bin", "offset": 0 }
+      ]
+    }
+  ]
+}

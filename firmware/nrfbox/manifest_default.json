@@ -1,0 +1,13 @@
+{
+  "name": "nRFBox",
+  "version": "2.7.2",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        { "path": "nrfbox.partitions.bin", "offset": 32768 },
+        { "path": "nrfbox.bin", "offset": 65536 }
+      ]
+    }
+  ]
+}
