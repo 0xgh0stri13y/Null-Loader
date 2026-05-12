@@ -1,0 +1,12 @@
+{
+  "name": "Bruce (ESP32 Generic)",
+  "version": "1.14",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        { "path": "Bruce-esp32-generic.bin", "offset": 0 }
+      ]
+    }
+  ]
+}
